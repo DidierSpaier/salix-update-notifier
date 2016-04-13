@@ -1,13 +1,19 @@
+salix-update-notifier has been written by George Vlahavas.
+
+The version stored in this repository has been modified and adapted to be
+used in Slint OS.
+
 salix-update-notifier is a daemon that provides system tray
 notifications if package updates are available from on-line package
 repositories. It uses slapt-get and gslapt to determine if there are any
 updates available and actually perform the package updates.
 
 salix-update-notifier can be used on any slackware or slackware based
-system that uses slapt-get/gslapt for package managemenet. It
-additionally requires matedialog to be installed though, which is not
+system that uses slapt-get/gslapt for package managemenet. This version 
+additionally requires yad to be installed though, which is not
 included in the standard slackware packages and must be installed
-separately. It also requires one of gksu, ktsuss, kdesu or a suitable
+separately. yad is available from Slint repositories.
+It also requires one of gksu, ktsuss, kdesu or a suitable
 alternative to be present in the system.
 
 By clicking on the system tray notification, you will get a window
